@@ -47,7 +47,7 @@ function Slider2() {
 
           <Carousel.Caption>
             <h3>{movie.name}</h3>
-            <p>{truncate(movie?.overview, 150)}</p>
+            <p>{truncate(movie?.overview, 100)}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -59,7 +59,7 @@ function Slider2() {
 
           <Carousel.Caption>
             <h3>{movie1.name}</h3>
-            <p>{truncate(movie1?.overview, 150)}</p>
+            <p>{truncate(movie1?.overview, 100)}</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -71,7 +71,7 @@ function Slider2() {
 
           <Carousel.Caption>
             <h3>{movie2.name}</h3>
-            <p>{truncate(movie2?.overview, 150)}</p>
+            <p>{truncate(movie2?.overview, 100)}</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
