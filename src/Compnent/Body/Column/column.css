@@ -48,5 +48,6 @@
 @media only screen and (max-width: 768px) {
   .column-container {
     width: 100%;
+    margin-top: 25px;
   }
 }

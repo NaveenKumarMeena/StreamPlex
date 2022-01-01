@@ -4,14 +4,17 @@
 }
 .posters {
   display: flex;
+  width: 90vw;
   overflow-y: hidden;
   overflow-x: scroll;
   padding: 20px;
   padding-right: 0px;
   margin-left: 20px;
+  scrollbar-color: none;
 }
 .posters::-webkit-scrollbar {
   display: none;
+  position: absolute;
 }
 
 .poster {

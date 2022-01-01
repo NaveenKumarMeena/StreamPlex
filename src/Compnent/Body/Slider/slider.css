@@ -54,3 +54,17 @@
     #111
   );
 }
+@media only screen and (max-width: 768px) {
+  .container-slider {
+    height: 50vh;
+  }
+  .container-slider img {
+    height: 50vh;
+  }
+  .container-slider h3 {
+    font-size: 24px;
+  }
+  .container-slider p {
+    font-size: 12px;
+  }
+}
