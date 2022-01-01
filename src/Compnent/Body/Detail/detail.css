@@ -1,0 +1,56 @@
+.detail-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: drop-shadow(2.5px 2.5px 5px #181818);
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../Image/Background.jpg");
+  z-index: 6;
+  -moz-box-shadow: inset 480px 10px 50px #181818;
+  -webkit-box-shadow: inset 480px 10px 50px #181818;
+  box-shadow: inset 480px 10px 50px #181818;
+  position: relative;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+width: 35%;
+height: 80%;
+margin-left: 80px;
+}
+.title{
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
+.title img{
+    width: 80%;
+}
+.about{
+    width: 100%;
+    height: 60%;
+}
+.name{
+    color: #fff;
+    font-size: 24px;
+}
+.movie-detail{
+    display: flex;
+    color: gray;
+}
+.rated{
+    padding: 0px 5px;
+    border: 1px solid gray;
+    margin: 0px 5px;
+}
+.movie-desc{
+    color: white;
+    margin-top: 40px;
+}
+.movie-cast{
+    color: white;
+    display: flex;
+}
+.starred{
+    color: gray;
+}
