@@ -9,6 +9,7 @@ function Slider2() {
   const [movie, setMovie] = useState([]);
   const [movie1, setMovie1] = useState([]);
   const [movie2, setMovie2] = useState([]);
+  const [movie3, setMovie3] = useState([]);
 
   useEffect(() => {
     async function fetchData() {
@@ -24,6 +25,11 @@ function Slider2() {
         ]
       );
       setMovie2(
+        request.data.results[
+          Math.floor(Math.random() * request.data.results.length - 1)
+        ]
+      );
+      setMovie3(
         request.data.results[
           Math.floor(Math.random() * request.data.results.length - 1)
         ]
@@ -72,6 +78,18 @@ function Slider2() {
           <Carousel.Caption>
             <h3>{movie2.name}</h3>
             <p>{truncate(movie2?.overview, 100)}</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={base_url + movie3.backdrop_path}
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>{movie3.name}</h3>
+            <p>{truncate(movie3?.overview, 100)}</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

@@ -2,7 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  position: fixed;
   justify-content: space-between;
+  z-index: 11;
+  width: 100%;
+  transition: all ease 0.6s;
+}
+.bg-black {
   background-color: #181818;
 }
 a {

@@ -5,7 +5,7 @@
 } */
 .container-slider {
   height: 90vh;
-  width: 100vw;
+  width: 100%;
   margin-top: 5px;
   box-shadow: 0px 15px 15px #000;
   margin-bottom: 20px;
@@ -54,7 +54,7 @@
     #111
   );
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .container-slider {
     height: 50vh;
   }
@@ -66,5 +66,13 @@
   }
   .container-slider p {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .container-slider {
+    height: 45vh;
+  }
+  .container-slider img {
+    height: 45vh;
   }
 }

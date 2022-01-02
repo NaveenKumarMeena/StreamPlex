@@ -1,5 +1,6 @@
 body {
+  overflow-x: hidden;
   margin: 0;
-  width: 99vw;
   font-family: "BioRhyme", serif;
+  background-color: black;
 }
