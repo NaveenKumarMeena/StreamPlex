@@ -6,6 +6,7 @@ import requests from "../../Request";
 import "./home.css";
 import Slider2 from "../Body/Slider/Slider2.0";
 import Column from "../Body/Column/Column";
+import Footer from "../Body/footer/Footer";
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
         <Column title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
         <Column title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
       </div>
+      <Footer />
     </div>
   );
 }
