@@ -5,6 +5,7 @@
 .posters {
   display: flex;
   width: 90vw;
+
   position: relative;
   right: 0;
   overflow-y: hidden;
@@ -16,6 +17,7 @@
 }
 .posters::-webkit-scrollbar {
   display: none;
+  position: absolute;
 }
 
 .poster {

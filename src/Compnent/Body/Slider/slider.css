@@ -54,7 +54,9 @@
     #111
   );
 }
+
 @media screen and (max-width: 768px) {
+
   .container-slider {
     height: 50vh;
   }
@@ -76,3 +78,4 @@
     height: 45vh;
   }
 }
+
